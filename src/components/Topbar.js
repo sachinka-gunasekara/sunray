@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import { Link } from 'react-router-dom';
 
 export default function ButtonAppBar() {
@@ -20,7 +20,7 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <WbSunnyIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, letterSpacing: '.3rem' }}>
             SUNRAY
